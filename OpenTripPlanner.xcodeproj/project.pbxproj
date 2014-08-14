@@ -40,19 +40,16 @@
 		1CE5C57E162C672E001E83D3 /* OTPItineraryCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE5C57D162C672E001E83D3 /* OTPItineraryCollectionView.m */; };
 		8D9287731643A3C400170393 /* OTPArrivalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9287721643A3C400170393 /* OTPArrivalCell.m */; };
 		930531F21620E33C00F9A230 /* Step.m in Sources */ = {isa = PBXBuildFile; fileRef = 930531F11620E33C00F9A230 /* Step.m */; };
-		9378875B16154885007CF24C /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9378875016154866007CF24C /* libRestKit.a */; };
-		9378877C16154DA1007CF24C /* libMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9378877616154AF2007CF24C /* libMapView.a */; };
 		9388194116193310002021EA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9388193F161927A6002021EA /* MBProgressHUD.m */; };
 		93B179C0162BBAB400F09EC6 /* OTPUnitFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B179BF162BBAB400F09EC6 /* OTPUnitFormatter.m */; };
 		93B179C3162BC69C00F09EC6 /* OTPUnitData.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B179C2162BC69C00F09EC6 /* OTPUnitData.m */; };
 		93B179C6162D253000F09EC6 /* OTPStepCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B179C5162D252F00F09EC6 /* OTPStepCell.m */; };
-		93EA08D3164582A500705096 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EA08CF164582A500705096 /* libTestFlight.a */; };
-		93EA08D4164582A500705096 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 93EA08D0164582A500705096 /* README.md */; };
-		93EA08D5164582A500705096 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 93EA08D1164582A500705096 /* release_notes.md */; };
 		93F4D9DD1659B628002C2790 /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4D9DC1659B628002C2790 /* Error.m */; };
 		93F4D9E01659B70B002C2790 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4D9DF1659B70B002C2790 /* Response.m */; };
 		93F4DA311662ED1A002C2790 /* ZUUIRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4DA301662ED1A002C2790 /* ZUUIRevealController.m */; };
 		93F4DA3416630680002C2790 /* OTPDirectionPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F4DA3316630680002C2790 /* OTPDirectionPanGestureRecognizer.m */; };
+		A85ED9921993DD2F008E3616 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9378875016154866007CF24C /* libRestKit.a */; };
+		A85ED9931993DD3B008E3616 /* libMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9378877616154AF2007CF24C /* libMapView.a */; };
 		CC088DE915F6A3B400C6F372 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC088DE815F6A3B400C6F372 /* MapKit.framework */; };
 		CC0A1F771603AB3C003085B2 /* OTPItineraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0A1F761603AB3C003085B2 /* OTPItineraryViewController.m */; };
 		CC0B7401160A6D56008A734A /* OTPSearchBarWithActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0B7400160A6D56008A734A /* OTPSearchBarWithActivity.m */; };
@@ -303,20 +300,6 @@
 			remoteGlobalIDString = 25160E78145651060060A5C5;
 			remoteInfo = RestKitFrameworkTests;
 		};
-		9378875716154866007CF24C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9378874416154865007CF24C /* RestKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 259C301615128079003066A2;
-			remoteInfo = RestKitResources;
-		};
-		9378875916154879007CF24C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9378874416154865007CF24C /* RestKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 25160D1514564E810060A5C5;
-			remoteInfo = RestKit;
-		};
 		9378877516154AF2007CF24C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9378876A16154AF2007CF24C /* MapView.xcodeproj */;
@@ -324,12 +307,26 @@
 			remoteGlobalIDString = 17F31EFA1331050A00122B16;
 			remoteInfo = MapView;
 		};
-		9378877A16154D97007CF24C /* PBXContainerItemProxy */ = {
+		A85ED9901993DC66008E3616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9378874416154865007CF24C /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		A85ED99A1993E509008E3616 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9378876A16154AF2007CF24C /* MapView.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = B8C974130E8A19B2007D16AD;
 			remoteInfo = MapView;
+		};
+		A85ED99C1993E509008E3616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9378874416154865007CF24C /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
 		};
 		CCCDFB8315EEAAC600B26133 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -392,10 +389,6 @@
 		93B179C2162BC69C00F09EC6 /* OTPUnitData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPUnitData.m; sourceTree = "<group>"; };
 		93B179C4162D252F00F09EC6 /* OTPStepCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPStepCell.h; sourceTree = "<group>"; };
 		93B179C5162D252F00F09EC6 /* OTPStepCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPStepCell.m; sourceTree = "<group>"; };
-		93EA08CF164582A500705096 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		93EA08D0164582A500705096 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		93EA08D1164582A500705096 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		93EA08D2164582A500705096 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		93F4D9DB1659B628002C2790 /* Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
 		93F4D9DC1659B628002C2790 /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Error.m; sourceTree = "<group>"; };
 		93F4D9DE1659B70B002C2790 /* Response.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
@@ -404,6 +397,8 @@
 		93F4DA301662ED1A002C2790 /* ZUUIRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZUUIRevealController.m; sourceTree = "<group>"; };
 		93F4DA3216630680002C2790 /* OTPDirectionPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPDirectionPanGestureRecognizer.h; sourceTree = "<group>"; };
 		93F4DA3316630680002C2790 /* OTPDirectionPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPDirectionPanGestureRecognizer.m; sourceTree = "<group>"; };
+		A85ED9941993DD3B008E3616 /* libProj4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libProj4.a; path = "MapBox/Proj4/build/Debug-iphoneos/libProj4.a"; sourceTree = "<group>"; };
+		A85ED9981993DF46008E3616 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CC03B5F116693B94006BD398 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		CC088DE815F6A3B400C6F372 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CC0A1F751603AB3C003085B2 /* OTPItineraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OTPItineraryViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -664,9 +659,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85ED9931993DD3B008E3616 /* libMapView.a in Frameworks */,
+				A85ED9921993DD2F008E3616 /* libRestKit.a in Frameworks */,
 				CCE01DA0165DF5F7008F873E /* MessageUI.framework in Frameworks */,
-				9378877C16154DA1007CF24C /* libMapView.a in Frameworks */,
-				9378875B16154885007CF24C /* libRestKit.a in Frameworks */,
 				CC088DE915F6A3B400C6F372 /* MapKit.framework in Frameworks */,
 				CCCDFBE415EEC1BC00B26133 /* libz.dylib in Frameworks */,
 				CCCDFBE215EEC1AB00B26133 /* libsqlite3.dylib in Frameworks */,
@@ -681,7 +676,6 @@
 				CCCDFB6815EEAAC600B26133 /* UIKit.framework in Frameworks */,
 				CCCDFB6A15EEAAC600B26133 /* Foundation.framework in Frameworks */,
 				CCCDFB6C15EEAAC600B26133 /* CoreGraphics.framework in Frameworks */,
-				93EA08D3164582A500705096 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -816,7 +810,7 @@
 				9378875216154866007CF24C /* RestKitTests.octest */,
 				9378875416154866007CF24C /* RestKit.framework */,
 				9378875616154866007CF24C /* RestKitFrameworkTests.octest */,
-				9378875816154866007CF24C /* RestKitResources.bundle */,
+				A85ED9911993DC66008E3616 /* RestKitResources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -827,17 +821,6 @@
 				9378877616154AF2007CF24C /* libMapView.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		93EA08CE164582A500705096 /* TestFlightSDK1 */ = {
-			isa = PBXGroup;
-			children = (
-				93EA08CF164582A500705096 /* libTestFlight.a */,
-				93EA08D0164582A500705096 /* README.md */,
-				93EA08D1164582A500705096 /* release_notes.md */,
-				93EA08D2164582A500705096 /* TestFlight.h */,
-			);
-			path = TestFlightSDK1;
 			sourceTree = "<group>";
 		};
 		CC2316D11626067D00EE0F48 /* MapBoxResources */ = {
@@ -1108,7 +1091,6 @@
 			isa = PBXGroup;
 			children = (
 				CC03B5F116693B94006BD398 /* CoreText.framework */,
-				93EA08CE164582A500705096 /* TestFlightSDK1 */,
 				9378876A16154AF2007CF24C /* MapView.xcodeproj */,
 				9378874416154865007CF24C /* RestKit.xcodeproj */,
 				CCCDFB6615EEAAC600B26133 /* Frameworks */,
@@ -1132,6 +1114,8 @@
 		CCCDFB6615EEAAC600B26133 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A85ED9981993DF46008E3616 /* XCTest.framework */,
+				A85ED9941993DD3B008E3616 /* libProj4.a */,
 				CCE01D9F165DF5F6008F873E /* MessageUI.framework */,
 				CC088DE815F6A3B400C6F372 /* MapKit.framework */,
 				CCCDFBC015EEBA7600B26133 /* CFNetwork.framework */,
@@ -1216,8 +1200,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				9378877B16154D97007CF24C /* PBXTargetDependency */,
-				9378875A16154879007CF24C /* PBXTargetDependency */,
+				A85ED99B1993E509008E3616 /* PBXTargetDependency */,
+				A85ED99D1993E509008E3616 /* PBXTargetDependency */,
 			);
 			name = OpenTripPlanner;
 			productName = OpenTripPlanner;
@@ -1310,18 +1294,18 @@
 			remoteRef = 9378875516154866007CF24C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9378875816154866007CF24C /* RestKitResources.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = RestKitResources.bundle;
-			remoteRef = 9378875716154866007CF24C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		9378877616154AF2007CF24C /* libMapView.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libMapView.a;
 			remoteRef = 9378877516154AF2007CF24C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A85ED9911993DC66008E3616 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = A85ED9901993DC66008E3616 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1517,8 +1501,6 @@
 				0D4553E516432356006D4A3B /* popup-walk.png in Resources */,
 				0D4553E616432356006D4A3B /* popup-walk@2x.png in Resources */,
 				0D4553E716432356006D4A3B /* transfer_walk.png in Resources */,
-				93EA08D4164582A500705096 /* README.md in Resources */,
-				93EA08D5164582A500705096 /* release_notes.md in Resources */,
 				CC2C154A1666D28A006E4619 /* marker-dropped-cropped.png in Resources */,
 				CC2C154B1666D28A006E4619 /* marker-dropped-cropped@2x.png in Resources */,
 				CC2C154C1666D28A006E4619 /* marker-end-cropped.png in Resources */,
@@ -1621,15 +1603,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9378875A16154879007CF24C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RestKit;
-			targetProxy = 9378875916154879007CF24C /* PBXContainerItemProxy */;
-		};
-		9378877B16154D97007CF24C /* PBXTargetDependency */ = {
+		A85ED99B1993E509008E3616 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MapView;
-			targetProxy = 9378877A16154D97007CF24C /* PBXContainerItemProxy */;
+			targetProxy = A85ED99A1993E509008E3616 /* PBXContainerItemProxy */;
+		};
+		A85ED99D1993E509008E3616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = A85ED99C1993E509008E3616 /* PBXContainerItemProxy */;
 		};
 		CCCDFB8415EEAAC600B26133 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1714,8 +1696,12 @@
 		CCCDFB9115EEAAC600B26133 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Aaron Sutula (A4CW4AA7D5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aaron Sutula (A4CW4AA7D5)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenTripPlanner/OpenTripPlanner-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -1728,15 +1714,15 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/system\"",
-					"\"$(SRCROOT)/TestFlightSDK1\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 				);
 				PRODUCT_NAME = Joyride;
-				PROVISIONING_PROFILE = "70B10A69-2E7A-4667-8186-09B6FC108163";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "70B10A69-2E7A-4667-8186-09B6FC108163";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1745,8 +1731,12 @@
 		CCCDFB9215EEAAC600B26133 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: OpenPlans Inc";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: OpenPlans Inc";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenTripPlanner/OpenTripPlanner-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -1759,15 +1749,15 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/system\"",
-					"\"$(SRCROOT)/TestFlightSDK1\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 				);
 				PRODUCT_NAME = Joyride;
-				PROVISIONING_PROFILE = "C7903C8D-6769-4A24-8CC9-5D3FE5659390";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E773ACC5-2A35-4AC1-A104-445C24ED4438";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

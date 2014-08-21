@@ -25,9 +25,9 @@
 {
     #define TESTING 1
     #ifdef TESTING
-        [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
+//        [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
     #endif
-    [TestFlight takeOff:@"<YOUR TESTFLIGHT TEAM TOKEN HERE>"];
+//    [TestFlight takeOff:@"<YOUR TESTFLIGHT TEAM TOKEN HERE>"];
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *deviceId = [defaults stringForKey:@"deviceId"];
@@ -43,7 +43,7 @@
 //    RKLogConfigureByName("RestKit/ObjectMapping", RKLogLevelTrace);
     
     // Initialize RestKit
-    RKObjectManager* objectManager = [RKObjectManager managerWithBaseURLString:@"http://demo.opentripplanner.org/opentripplanner-api-webapp/ws"];
+    RKObjectManager* objectManager = [RKObjectManager managerWithBaseURLString:@"http://opentripplanner.usf.edu/opentripplanner-api-webapp/ws"];
     
     // Enable automatic network activity indicator management
     objectManager.client.requestQueue.showsNetworkActivityIndicatorWhenBusy = YES;
